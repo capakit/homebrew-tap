@@ -1,19 +1,19 @@
 class Capakit < Formula
   desc "Runtime and CLI toolkit for local-first AI apps"
   homepage "https://capakit.com"
-  version "0.1.10"
+  version "0.1.11"
   license :cannot_represent
 
   depends_on :macos
 
   on_arm do
-    url "https://github.com/capakit/cli/releases/download/v0.1.10/capakit-aarch64-apple-darwin.tar.gz"
-    sha256 "179b4c573e38f6ad732473d66d2dadf6a7efb5c64831bf5459ab5926e5761256"
+    url "https://github.com/capakit/cli/releases/download/v0.1.11/capakit-aarch64-apple-darwin.tar.gz"
+    sha256 "439f093e67649cbaf6131f8b4eb989a1ce26177a88051ba9b23a2f2285fb220d"
   end
 
   on_intel do
-    url "https://github.com/capakit/cli/releases/download/v0.1.10/capakit-x86_64-apple-darwin.tar.gz"
-    sha256 "c0d0e30a2f7813bb24de530e388f665d1fac3429303a284e789e2c2e8dfe67f9"
+    url "https://github.com/capakit/cli/releases/download/v0.1.11/capakit-x86_64-apple-darwin.tar.gz"
+    sha256 "0c91a433f3df11c3eac39506bc9d5af105e075a44b3701b2ebf06f4acb28fe65"
   end
 
   def install
