@@ -1,5 +1,5 @@
 class Capakit < Formula
-  desc "Runtime and CLI toolkit for local-first AI apps"
+  desc "Runtime and CLI toolkit for building AI app Kits"
   homepage "https://capakit.com"
   version "0.1.11"
   license :cannot_represent
